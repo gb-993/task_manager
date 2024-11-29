@@ -1,0 +1,15 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/untitled.dir/main.cpp.o: dyndep
+
+build CMakeFiles/untitled.dir/goal.cpp.o: dyndep
+
+build CMakeFiles/untitled.dir/category.cpp.o: dyndep
+
+build CMakeFiles/untitled.dir/categorymanager.cpp.o: dyndep
+
+build CMakeFiles/untitled.dir/mainwindow.cpp.o: dyndep
+
+build CMakeFiles/untitled.dir/controller.cpp.o: dyndep
+
+build CMakeFiles/untitled.dir/addCategoryWindow.cpp.o: dyndep
+
