@@ -1,73 +1,52 @@
+//
+// Created by gb on 08/12/24.
+//
+
 #include "controller.h"
 
-#include <iostream>
 
-Controller::Controller() {
-    // Crea il central widget e il layout principale
-    centralWidget = new QWidget();
-    QVBoxLayout *mainLayout = new QVBoxLayout(centralWidget); // Layout principale verticale
 
-    QWidget *buttonContainer = new QWidget(); // Contenitore per i pulsanti
-    QHBoxLayout *buttonLayout = new QHBoxLayout(buttonContainer); // Layout orizzontale per i pulsanti
-    buttonLayout->setContentsMargins(0, 10, 0, 0); // Margini personalizzati
-    buttonLayout->setSpacing(5); // Spaziatura tra i pulsanti
-    addCategoryButton = new QPushButton("Add");
-    removeCategoryButton = new QPushButton("Del");
-    addCategoryButton->setFixedSize(50, 30);
-    removeCategoryButton->setFixedSize(50, 30);
 
-    buttonLayout->addWidget(addCategoryButton);
-    buttonLayout->addWidget(removeCategoryButton);
-    buttonLayout->addStretch(); // Spinge i pulsanti verso sinistra
-    mainLayout->addWidget(buttonContainer);
+Controller::Controller(CategoryManager* category_manager, MainWindow* mainwindow, AddCategoryDialog* add_category_dialog, AddTaskDialog* add_task_dialog,QObject *parent = nullptr) :
+categoryManager(category_manager), mainwindow(mainwindow), addCategoryDialog(add_category_dialog),addTaskDialog(add_task_dialog), QObject(parent){
 
-    progressBar = new QProgressBar();
-    progressBar->setFixedHeight(20); // Altezza fissa
-    progressBar->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed); // Espansione orizzontale
-    mainLayout->addWidget(progressBar);
+    connect(mainwindow, &MainWindow::addCategorySignal, this, &Controller::onAddcategorySignal);            //  quando faccio add new category dalla main view
+    connect(add_category_dialog, &AddCategoryDialog::okSignal, this, &Controller::addCategoryWidget);       // quando premo ok dalla new category dialog
+    connect(add_task_dialog, &AddTaskDialog::okSignal, this, &Controller::addTaskWidget);       // quando premo ok dalla new task dialog
 
-    // Ridurre la spaziatura tra la progress bar e la scroll area
-    mainLayout->setSpacing(5);  // Spaziatura generale nel layout
-    mainLayout->setContentsMargins(0, 10, 0, 0); // Impostare i margini del layout
-    QScrollArea *scrollArea = new QScrollArea();
-    scrollArea->setWidgetResizable(true);  // La QScrollArea si ridimensionerà automaticamente
-    QWidget *scrollContent = new QWidget();
-    QVBoxLayout *scrollLayout = new QVBoxLayout(scrollContent);
 
-    /* AGGIUNGERE QUA LE CATEGORIE CREATE
-    scrollLayout->addWidget(testwidget);
-    scrollArea->setWidget(scrollContent);
-    */
-    // Aggiungiamo la QScrollArea al layout principale
-    mainLayout->addWidget(scrollArea);
-
-    // Crea la finestra principale
-    mainWindow = new MainWindow(nullptr, mainLayout, centralWidget);
-    mainWindow->show();
-
-    // Crea tutte le finestre necessarie
-
-    // Crea il gestore delle categorie
-    categoryManager = new CategoryManager();
-
-    // connect
-    connect(addCategoryButton, &QPushButton::clicked, this, &Controller::openDialogWindow);
 }
 
-void Controller::openDialogWindow() {
-    // differenza con Category category1(description);
-    addCategoryWindow = new AddCategoryWindow();
-    connect(addCategoryWindow, &AddCategoryWindow::sendDescriptionSignal, this, &Controller::addCategory);
-    addCategoryWindow->exec();
+void Controller::onAddcategorySignal() {
+    addCategoryDialog->show();
 }
-
-void Controller::addCategory(QString description) {
-    category = new Category(description);
+void Controller::onAddTaskSignal() {
+    addTaskDialog->show();
+}
+// crea un widget categoria da passare alla mainWindow
+void Controller::addCategoryWidget(QString description, int totTask){
+    category = new Category(description, totTask);
     categoryManager->addCategory(category);
-    categoryManager->print();
-    // serve??
-    delete addCategoryWindow;
-    addCategoryWindow = nullptr;
+    categoryWidget = new CategoryWidget(nullptr, category);
+    mainwindow->addCategory(categoryWidget);
+    connect(categoryWidget, &CategoryWidget::deleteButtonClickedSignal, this, &Controller::deleteCategoryWidget);  // quando chiamo delete dalla categoriaWidget
+    connect(categoryWidget, &CategoryWidget::addTaskButtonClickedSignal, this, &Controller::onAddTaskSignal);
 }
 
-Controller::~Controller() {}
+void Controller::addTaskWidget(QString description, int totTask) {
+    goal = new Goal(description, totTask);
+}
+
+
+void Controller::deleteCategoryWidget(CategoryWidget* category_widget) {
+    categoryManager->removeCategory(category_widget->getCategory());
+    mainwindow->removecategory(category_widget);
+    category_widget->deleteSelf();
+}
+
+
+void Controller::printTest() {
+    qDebug()<<"printTest";
+}
+
+Controller::~Controller(){}

@@ -6,7 +6,7 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-set(CMAKE_PREFIX_PATH "/opt/Qt/6.8.0/gcc_64")
+set(CMAKE_PREFIX_PATH "/opt/Qt/6.8.1/gcc_64")
 find_package(Qt6 COMPONENTS
         Core
         Gui
@@ -14,18 +14,22 @@ find_package(Qt6 COMPONENTS
         REQUIRED)
 
 add_executable(untitled main.cpp
-        goal.h
-        goal.cpp
-        category.cpp
-        category.h
-        categorymanager.cpp
-        categorymanager.h
-        mainwindow.cpp
-        mainwindow.h
+        Model/goal.h
+        Model/goal.cpp
+        Model/category.cpp
+        Model/category.h
+        Model/categorymanager.cpp
+        Model/categorymanager.h
+        View/mainwindow.cpp
+        View/mainwindow.h
+        View/addCategoryDialog.cpp
+        View/addCategoryDialog.h
         controller.cpp
         controller.h
-        addCategoryWindow.cpp
-        addCategoryWindow.h
+        View/categoryWidget.cpp
+        View/categoryWidget.h
+        View/addTaskDialog.cpp
+        View/addTaskDialog.h
 )
 target_link_libraries(untitled
         Qt::Core

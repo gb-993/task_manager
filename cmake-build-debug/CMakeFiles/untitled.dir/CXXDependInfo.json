@@ -5,22 +5,22 @@
 	"compiler-simulate-id" : "",
 	"config" : "Debug",
 	"cxx-modules" : {},
-	"dir-cur-bld" : "/home/gb/CLionProjects/task_manager/task_manager/cmake-build-debug",
-	"dir-cur-src" : "/home/gb/CLionProjects/task_manager/task_manager",
-	"dir-top-bld" : "/home/gb/CLionProjects/task_manager/task_manager/cmake-build-debug",
-	"dir-top-src" : "/home/gb/CLionProjects/task_manager/task_manager",
+	"dir-cur-bld" : "/home/gb/CLionProjects/task_manager/cmake-build-debug",
+	"dir-cur-src" : "/home/gb/CLionProjects/task_manager",
+	"dir-top-bld" : "/home/gb/CLionProjects/task_manager/cmake-build-debug",
+	"dir-top-src" : "/home/gb/CLionProjects/task_manager",
 	"exports" : [],
 	"forward-modules-from-target-dirs" : [],
 	"include-dirs" : 
 	[
 		"untitled_autogen/include",
-		"/opt/Qt/6.8.0/gcc_64/include/QtCore",
-		"/opt/Qt/6.8.0/gcc_64/include",
-		"/opt/Qt/6.8.0/gcc_64/mkspecs/linux-g++",
-		"/opt/Qt/6.8.0/gcc_64/include/QtGui",
-		"/opt/Qt/6.8.0/gcc_64/include/QtWidgets"
+		"/opt/Qt/6.8.1/gcc_64/include/QtCore",
+		"/opt/Qt/6.8.1/gcc_64/include",
+		"/opt/Qt/6.8.1/gcc_64/mkspecs/linux-g++",
+		"/opt/Qt/6.8.1/gcc_64/include/QtGui",
+		"/opt/Qt/6.8.1/gcc_64/include/QtWidgets"
 	],
 	"language" : "CXX",
 	"linked-target-dirs" : [],
-	"module-dir" : "/home/gb/CLionProjects/task_manager/task_manager/cmake-build-debug/CMakeFiles/untitled.dir"
+	"module-dir" : "/home/gb/CLionProjects/task_manager/cmake-build-debug/CMakeFiles/untitled.dir"
 }

@@ -1,38 +1,42 @@
 #ifndef CONTROLLER_H
 #define CONTROLLER_H
 #include <QObject>
-#include <QPushButton>
-#include <QProgressBar>
-#include <QScrollArea>
-#include "category.h"
-#include "categorymanager.h"
-#include "mainwindow.h"
-#include "addCategoryWindow.h"
-
-
+#include <QDebug>
+#include "View/mainwindow.h"
+#include "View/addCategoryDialog.h"
+#include "Model/category.h"
+#include "Model/categorymanager.h"
+#include "View/categoryWidget.h"
+#include "Model/categorymanager.h"
+#include "View/categoryWidget.h"
+#include "Model/goal.h"
+#include "View/addTaskDialog.h"
 
 class Controller: public QObject {
-Q_OBJECT
-public:
-    Controller();
+    Q_OBJECT
+    public:
+    Controller(CategoryManager*, MainWindow*, AddCategoryDialog*, AddTaskDialog*, QObject*);
     ~Controller();
-    void addCategory(QString);
-    //void removeCategory();
-public  slots:
-    void openDialogWindow();
+    void onAddcategorySignal();
+    void onAddTaskSignal();
+    //void onOkSignal();
+    void addCategoryWidget(QString, int);
+    void addTaskWidget(QString, int);
+    void deleteCategoryWidget(CategoryWidget*);
+    void printTest();
 
 private:
-    QVBoxLayout *layout;
-    QWidget *centralWidget;
-    QPushButton *addCategoryButton;
-    QPushButton *removeCategoryButton;
-    QProgressBar *progressBar;
-    MainWindow* mainWindow;
+    MainWindow* mainwindow;
+    AddCategoryDialog* addCategoryDialog;
+    AddTaskDialog* addTaskDialog;
     CategoryManager* categoryManager;
-    AddCategoryWindow* addCategoryWindow;
-    QScrollArea *scrollArea;
     Category* category;
+    CategoryWidget* categoryWidget;
+    Goal* goal;
 
+
+signals:
+    void openAddCategoryDialog();
 };
 
 #endif //CONTROLLER_H

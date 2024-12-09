@@ -1,15 +1,19 @@
 ninja_dyndep_version = 1.0
 build CMakeFiles/untitled.dir/main.cpp.o: dyndep
 
-build CMakeFiles/untitled.dir/goal.cpp.o: dyndep
+build CMakeFiles/untitled.dir/Model/goal.cpp.o: dyndep
 
-build CMakeFiles/untitled.dir/category.cpp.o: dyndep
+build CMakeFiles/untitled.dir/Model/category.cpp.o: dyndep
 
-build CMakeFiles/untitled.dir/categorymanager.cpp.o: dyndep
+build CMakeFiles/untitled.dir/Model/categorymanager.cpp.o: dyndep
 
-build CMakeFiles/untitled.dir/mainwindow.cpp.o: dyndep
+build CMakeFiles/untitled.dir/View/mainwindow.cpp.o: dyndep
+
+build CMakeFiles/untitled.dir/View/addCategoryDialog.cpp.o: dyndep
 
 build CMakeFiles/untitled.dir/controller.cpp.o: dyndep
 
-build CMakeFiles/untitled.dir/addCategoryWindow.cpp.o: dyndep
+build CMakeFiles/untitled.dir/View/categoryWidget.cpp.o: dyndep
+
+build CMakeFiles/untitled.dir/View/addTaskDialog.cpp.o: dyndep
 

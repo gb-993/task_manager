@@ -1,0 +1,65 @@
+//
+// Created by gb on 08/12/24.
+//
+
+#include "addCategoryDialog.h"
+
+AddCategoryDialog::AddCategoryDialog(QDialog* parent): QDialog(parent) {
+
+    mainLayout = new QVBoxLayout(this);
+    mainLayout->setSpacing(6);
+    mainLayout->setContentsMargins(11, 11, 11, 11);
+
+    /* selettore nome */
+
+    descriptionLabel = new QLabel(this);
+    descriptionLabel->setText("Category: ");
+    descriptionCategoryLineEdit = new QLineEdit(this);
+    descriptionCategoryLineEdit->setText("set category...");
+    descriptionLayout = new QHBoxLayout();
+    descriptionLayout->addWidget(descriptionLabel);
+    descriptionLayout->addWidget(descriptionCategoryLineEdit);
+    mainLayout->addLayout(descriptionLayout);
+
+    /* selettore numero task */
+    totalTaskLabel = new QLabel(this);
+    totalTaskLabel->setText("Total tasks: ");
+    totalTaskSelector = new QSpinBox(this);
+    totalTaskSelector->setMinimum(1);
+    totalTaskSelector->setMaximum(100);
+    totalTaskSelector->setValue(0);
+    counterLayout = new QHBoxLayout();
+    counterLayout->addWidget(totalTaskLabel);
+    counterLayout->addWidget(totalTaskSelector);
+    mainLayout->addLayout(counterLayout);
+
+
+    okButton = new QPushButton(this);
+    okButton->setText("ok");
+    cancelButton = new QPushButton(this);
+    cancelButton->setText("cancel");
+    buttonLayout = new QHBoxLayout();
+    buttonLayout->setSpacing(6);
+    buttonLayout->setContentsMargins(11, 11, 11, 11);
+    buttonLayout->addWidget(okButton);
+    buttonLayout->addWidget(cancelButton);
+    mainLayout->addLayout(buttonLayout);
+
+    connect(okButton, &QPushButton::clicked, this, &AddCategoryDialog::onOkClicked);
+    connect(cancelButton, &QPushButton::clicked, this, &AddCategoryDialog::onCancelClicked);
+
+
+}
+
+void AddCategoryDialog::onOkClicked() {
+    QString category = descriptionCategoryLineEdit->text();
+    int totTask = totalTaskSelector->value();
+    emit okSignal(category, totTask);
+    this->close();
+}
+
+void AddCategoryDialog::onCancelClicked() {
+    this->close();
+}
+
+AddCategoryDialog::~AddCategoryDialog(){}

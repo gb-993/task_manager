@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'controller.h'
 **
-** Created by: The Qt Meta Object Compiler version 68 (Qt 6.8.0)
+** Created by: The Qt Meta Object Compiler version 68 (Qt 6.8.1)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -19,7 +19,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'controller.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 68
-#error "This file was generated using the moc from 6.8.0. It"
+#error "This file was generated using the moc from 6.8.1. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -32,20 +32,21 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 QT_WARNING_DISABLE_GCC("-Wuseless-cast")
 namespace {
+struct qt_meta_tag_ZN10ControllerE_t {};
+} // unnamed namespace
+
 
 #ifdef QT_MOC_HAS_STRINGDATA
-struct qt_meta_stringdata_CLASSControllerENDCLASS_t {};
-constexpr auto qt_meta_stringdata_CLASSControllerENDCLASS = QtMocHelpers::stringData(
+static constexpr auto qt_meta_stringdata_ZN10ControllerE = QtMocHelpers::stringData(
     "Controller",
-    "openDialogWindow",
+    "openAddCategoryDialog",
     ""
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
 #endif // !QT_MOC_HAS_STRINGDATA
-} // unnamed namespace
 
-Q_CONSTINIT static const uint qt_meta_data_CLASSControllerENDCLASS[] = {
+Q_CONSTINIT static const uint qt_meta_data_ZN10ControllerE[] = {
 
  // content:
       12,       // revision
@@ -56,12 +57,12 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSControllerENDCLASS[] = {
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       0,       // signalCount
+       1,       // signalCount
 
- // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   20,    2, 0x0a,    1 /* Public */,
+ // signals: name, argc, parameters, tag, flags, initial metatype offsets
+       1,    0,   20,    2, 0x06,    1 /* Public */,
 
- // slots: parameters
+ // signals: parameters
     QMetaType::Void,
 
        0        // eod
@@ -69,14 +70,14 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSControllerENDCLASS[] = {
 
 Q_CONSTINIT const QMetaObject Controller::staticMetaObject = { {
     QMetaObject::SuperData::link<QObject::staticMetaObject>(),
-    qt_meta_stringdata_CLASSControllerENDCLASS.offsetsAndSizes,
-    qt_meta_data_CLASSControllerENDCLASS,
+    qt_meta_stringdata_ZN10ControllerE.offsetsAndSizes,
+    qt_meta_data_ZN10ControllerE,
     qt_static_metacall,
     nullptr,
-    qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSControllerENDCLASS_t,
+    qt_incomplete_metaTypeArray<qt_meta_tag_ZN10ControllerE_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<Controller, std::true_type>,
-        // method 'openDialogWindow'
+        // method 'openAddCategoryDialog'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -84,15 +85,23 @@ Q_CONSTINIT const QMetaObject Controller::staticMetaObject = { {
 
 void Controller::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
+    auto *_t = static_cast<Controller *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
-        auto *_t = static_cast<Controller *>(_o);
-        (void)_t;
         switch (_id) {
-        case 0: _t->openDialogWindow(); break;
+        case 0: _t->openAddCategoryDialog(); break;
         default: ;
         }
     }
-    (void)_a;
+    if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _q_method_type = void (Controller::*)();
+            if (_q_method_type _q_method = &Controller::openAddCategoryDialog; *reinterpret_cast<_q_method_type *>(_a[1]) == _q_method) {
+                *result = 0;
+                return;
+            }
+        }
+    }
 }
 
 const QMetaObject *Controller::metaObject() const
@@ -103,7 +112,7 @@ const QMetaObject *Controller::metaObject() const
 void *Controller::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_CLASSControllerENDCLASS.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_ZN10ControllerE.stringdata0))
         return static_cast<void*>(this);
     return QObject::qt_metacast(_clname);
 }
@@ -117,11 +126,18 @@ int Controller::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         if (_id < 1)
             qt_static_metacall(this, _c, _id, _a);
         _id -= 1;
-    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+    }
+    if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
         if (_id < 1)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
         _id -= 1;
     }
     return _id;
+}
+
+// SIGNAL 0
+void Controller::openAddCategoryDialog()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
 }
 QT_WARNING_POP
