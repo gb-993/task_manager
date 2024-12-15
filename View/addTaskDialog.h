@@ -9,20 +9,25 @@
 #include <QLabel>
 #include <QLineEdit>
 #include <QSpinBox>
+#include "../Model/category.h"
 #include <QPushButton>
 
 
 class AddTaskDialog: public QDialog{
 Q_OBJECT
 public:
-  AddTaskDialog(QWidget *parent = 0);
+  AddTaskDialog( QWidget *parent = 0);
   ~AddTaskDialog();
   void onOkClicked();
   void onCancelClicked();
+  void setCategory(Category* category);
+  Category* getCategory() const;
 
 
 private:
   QString taskName;
+  Category* category;
+
   QVBoxLayout *mainLayout;
   QLabel *descriptionLabel;
   QLineEdit *descriptionTaskLineEdit;
@@ -37,7 +42,7 @@ private:
   QHBoxLayout *buttonLayout;
 
   signals:
-  void okSignal(QString, int);
+  void okSignal(QString, int, Category*);
 };
 
 

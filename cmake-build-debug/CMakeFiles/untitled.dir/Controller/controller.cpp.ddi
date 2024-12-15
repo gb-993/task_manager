@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles/untitled.dir/Controller/controller.cpp.o",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

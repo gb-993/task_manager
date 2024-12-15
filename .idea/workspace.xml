@@ -30,35 +30,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65814cbc-5795-48e0-a326-bfca9521fe49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/View/addCategoryDialog.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/addCategoryDialog.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/addTaskDialog.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/addTaskDialog.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/categoryWidget.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/categoryWidget.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/mainwindow.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/QtSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/QtSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/subject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/observer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/taskWidget.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/taskWidget.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addCategoryWindow (copy).cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addCategoryWindow (copy).h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addCategoryWindow.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addCategoryWindow.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/category.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Model/category.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category.h" beforeDir="false" afterPath="$PROJECT_DIR$/Model/category.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categorymanager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Model/categorymanager.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categorymanager.h" beforeDir="false" afterPath="$PROJECT_DIR$/Model/categorymanager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/category.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Model/category.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/category.h" beforeDir="false" afterPath="$PROJECT_DIR$/Model/category.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/categorymanager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Model/categorymanager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/categorymanager.h" beforeDir="false" afterPath="$PROJECT_DIR$/Model/categorymanager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/goal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Model/goal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/goal.h" beforeDir="false" afterPath="$PROJECT_DIR$/Model/goal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/addCategoryDialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/View/addCategoryDialog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/addCategoryDialog.h" beforeDir="false" afterPath="$PROJECT_DIR$/View/addCategoryDialog.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/addTaskDialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/View/addTaskDialog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/addTaskDialog.h" beforeDir="false" afterPath="$PROJECT_DIR$/View/addTaskDialog.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/categoryWidget.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/View/categoryWidget.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/categoryWidget.h" beforeDir="false" afterPath="$PROJECT_DIR$/View/categoryWidget.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/mainwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/View/mainwindow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/mainwindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/View/mainwindow.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-f2efdd81477086e0c00a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-4cd2bb5fe180f5f0a04c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1db757af9b1412038f03.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-c32a86e73cfd09a8924b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-5688beb21ac1567852dd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-e49a49bae840a7052ce3.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-11-29T12-51-45-0337.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-untitled-Debug-629b17768613ae25cfa8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-12-09T15-41-11-0370.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-untitled-Debug-8b682ff67e9fc827970c.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-untitled_autogen-Debug-59a3a0c3e5d604f643d0.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-untitled_autogen_timestamp_deps-Debug-d0e2203126c0a256af3e.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-7d66e361d634e3ae0419.json" beforeDir="false" />
@@ -86,48 +87,60 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/CXX.dd" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/CXXDependInfo.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/CXXModules.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/addCategoryWindow.cpp.ddi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/addCategoryWindow.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/addCategoryWindow.cpp.o.ddi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/addCategoryWindow.cpp.o.ddi.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/addCategoryWindow.cpp.o.ddi.i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/addCategoryWindow.cpp.o.modmap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/category.cpp.ddi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/category.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/category.cpp.o.ddi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/category.cpp.o.ddi.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/category.cpp.o.ddi.i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/category.cpp.o.modmap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/categorymanager.cpp.ddi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/categorymanager.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/categorymanager.cpp.o.ddi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/categorymanager.cpp.o.ddi.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/categorymanager.cpp.o.ddi.i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/categorymanager.cpp.o.modmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/Model/category.cpp.ddi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/Model/category.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/Model/category.cpp.o.ddi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/Model/category.cpp.o.ddi.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/Model/category.cpp.o.ddi.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/Model/category.cpp.o.modmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/Model/categorymanager.cpp.ddi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/Model/categorymanager.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/Model/categorymanager.cpp.o.ddi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/Model/categorymanager.cpp.o.ddi.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/Model/categorymanager.cpp.o.ddi.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/Model/categorymanager.cpp.o.modmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/Model/goal.cpp.ddi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/Model/goal.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/Model/goal.cpp.o.ddi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/Model/goal.cpp.o.ddi.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/Model/goal.cpp.o.ddi.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/Model/goal.cpp.o.modmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/View/addCategoryDialog.cpp.ddi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/View/addCategoryDialog.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/View/addCategoryDialog.cpp.o.ddi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/View/addCategoryDialog.cpp.o.ddi.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/View/addCategoryDialog.cpp.o.ddi.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/View/addCategoryDialog.cpp.o.modmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/View/addTaskDialog.cpp.ddi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/View/addTaskDialog.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/View/addTaskDialog.cpp.o.ddi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/View/addTaskDialog.cpp.o.ddi.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/View/addTaskDialog.cpp.o.ddi.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/View/addTaskDialog.cpp.o.modmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/View/categoryWidget.cpp.ddi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/View/categoryWidget.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/View/categoryWidget.cpp.o.ddi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/View/categoryWidget.cpp.o.ddi.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/View/categoryWidget.cpp.o.ddi.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/View/categoryWidget.cpp.o.modmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/View/mainwindow.cpp.ddi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/View/mainwindow.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/View/mainwindow.cpp.o.ddi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/View/mainwindow.cpp.o.ddi.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/View/mainwindow.cpp.o.ddi.i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/View/mainwindow.cpp.o.modmap" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/controller.cpp.ddi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/controller.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/controller.cpp.o.ddi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/controller.cpp.o.ddi.d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/controller.cpp.o.ddi.i" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/controller.cpp.o.modmap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/goal.cpp.ddi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/goal.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/goal.cpp.o.ddi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/goal.cpp.o.ddi.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/goal.cpp.o.ddi.i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/goal.cpp.o.modmap" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.ddi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o.ddi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o.ddi.d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o.ddi.i" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o.modmap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/mainwindow.cpp.ddi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/mainwindow.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/mainwindow.cpp.o.ddi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/mainwindow.cpp.o.ddi.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/mainwindow.cpp.o.ddi.i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/mainwindow.cpp.o.modmap" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled_autogen.dir/AutogenInfo.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/untitled_autogen.dir/AutogenUsed.txt" beforeDir="false" />
@@ -136,30 +149,29 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/EWIEGA46WW/moc_addCategoryWindow.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/EWIEGA46WW/moc_addCategoryWindow.cpp.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/EWIEGA46WW/moc_category.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/EWIEGA46WW/moc_category.cpp.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/EWIEGA46WW/moc_categorymanager.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/EWIEGA46WW/moc_categorymanager.cpp.d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/EWIEGA46WW/moc_controller.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/EWIEGA46WW/moc_controller.cpp.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/EWIEGA46WW/moc_goal.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/EWIEGA46WW/moc_goal.cpp.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/EWIEGA46WW/moc_mainwindow.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/EWIEGA46WW/moc_mainwindow.cpp.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/EXHL2H62WB/moc_category.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/EXHL2H62WB/moc_category.cpp.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/EXHL2H62WB/moc_categorymanager.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/EXHL2H62WB/moc_categorymanager.cpp.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/EXHL2H62WB/moc_goal.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/EXHL2H62WB/moc_goal.cpp.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/WB4RFHLAU6/moc_addCategoryDialog.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/WB4RFHLAU6/moc_addCategoryDialog.cpp.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/WB4RFHLAU6/moc_addTaskDialog.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/WB4RFHLAU6/moc_addTaskDialog.cpp.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/WB4RFHLAU6/moc_categoryWidget.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/WB4RFHLAU6/moc_categoryWidget.cpp.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/WB4RFHLAU6/moc_mainwindow.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/WB4RFHLAU6/moc_mainwindow.cpp.d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/deps" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/moc_predefs.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/mocs_compilation.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/untitled_autogen/timestamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/controller.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller.h" beforeDir="false" afterPath="$PROJECT_DIR$/controller.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Model/goal.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goal.h" beforeDir="false" afterPath="$PROJECT_DIR$/Model/goal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/controller.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller.h" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/controller.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainwindow.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainwindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/View/mainwindow.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,34 +207,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;C/C++ File.Unnamed.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.untitled.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/gb/CLionProjects/task_manager/main.cpp&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ File.Unnamed.executor": "Run",
+    "CMake Application.untitled.executor": "Run",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/gb/CLionProjects/task_manager",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Controller" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/View" />
       <recent name="$PROJECT_DIR$/Model" />
     </key>
@@ -255,6 +267,32 @@
       <workItem from="1733742379757" duration="40000" />
       <workItem from="1733742447172" duration="8396000" />
       <workItem from="1733756616222" duration="4163000" />
+      <workItem from="1733841876841" duration="2825000" />
+      <workItem from="1733902453113" duration="5669000" />
+      <workItem from="1734008040061" duration="14216000" />
+      <workItem from="1734036032409" duration="6176000" />
+      <workItem from="1734076088272" duration="1979000" />
+      <workItem from="1734089749815" duration="7074000" />
+      <workItem from="1734100892894" duration="2196000" />
+      <workItem from="1734103714218" duration="8762000" />
+      <workItem from="1734117515250" duration="146000" />
+      <workItem from="1734129371869" duration="2016000" />
+      <workItem from="1734161597168" duration="8567000" />
+      <workItem from="1734176935266" duration="633000" />
+      <workItem from="1734178201813" duration="1000" />
+      <workItem from="1734178261622" duration="13000" />
+      <workItem from="1734178943332" duration="9000" />
+      <workItem from="1734179029764" duration="21000" />
+      <workItem from="1734179274526" duration="30000" />
+      <workItem from="1734179651891" duration="4000" />
+      <workItem from="1734179807108" duration="39000" />
+      <workItem from="1734179918253" duration="213000" />
+      <workItem from="1734184197957" duration="596000" />
+      <workItem from="1734187233143" duration="5392000" />
+      <workItem from="1734192705878" duration="505000" />
+      <workItem from="1734193480039" duration="2508000" />
+      <workItem from="1734219629948" duration="2818000" />
+      <workItem from="1734252056812" duration="10456000" />
     </task>
     <servers />
   </component>

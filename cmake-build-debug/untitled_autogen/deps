@@ -1,23 +1,97 @@
 untitled_autogen/timestamp: \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompiler.cmake.in \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystem.cmake.in \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU-FindBinUtils.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FeatureSummary.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindOpenGL.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake \
@@ -26,10 +100,13 @@ untitled_autogen/timestamp: \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindThreads.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/FindVulkan.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/MacroAddFileDependencies.cmake \
+	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-Determine-CXX.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake \
@@ -37,12 +114,15 @@ untitled_autogen/timestamp: \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/Linux.cmake \
 	/app/extra/clion/bin/cmake/linux/x64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake \
 	/home/gb/CLionProjects/task_manager/CMakeLists.txt \
+	/home/gb/CLionProjects/task_manager/Controller/controller.cpp \
+	/home/gb/CLionProjects/task_manager/Controller/controller.h \
 	/home/gb/CLionProjects/task_manager/Model/category.cpp \
 	/home/gb/CLionProjects/task_manager/Model/category.h \
 	/home/gb/CLionProjects/task_manager/Model/categorymanager.cpp \
 	/home/gb/CLionProjects/task_manager/Model/categorymanager.h \
 	/home/gb/CLionProjects/task_manager/Model/goal.cpp \
 	/home/gb/CLionProjects/task_manager/Model/goal.h \
+	/home/gb/CLionProjects/task_manager/Model/subject.h \
 	/home/gb/CLionProjects/task_manager/View/addCategoryDialog.cpp \
 	/home/gb/CLionProjects/task_manager/View/addCategoryDialog.h \
 	/home/gb/CLionProjects/task_manager/View/addTaskDialog.cpp \
@@ -51,16 +131,21 @@ untitled_autogen/timestamp: \
 	/home/gb/CLionProjects/task_manager/View/categoryWidget.h \
 	/home/gb/CLionProjects/task_manager/View/mainwindow.cpp \
 	/home/gb/CLionProjects/task_manager/View/mainwindow.h \
+	/home/gb/CLionProjects/task_manager/View/observer.h \
+	/home/gb/CLionProjects/task_manager/View/taskWidget.cpp \
+	/home/gb/CLionProjects/task_manager/View/taskWidget.h \
 	/home/gb/CLionProjects/task_manager/cmake-build-debug/CMakeFiles/3.30.5/CMakeCCompiler.cmake \
 	/home/gb/CLionProjects/task_manager/cmake-build-debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
 	/home/gb/CLionProjects/task_manager/cmake-build-debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
 	/home/gb/CLionProjects/task_manager/cmake-build-debug/untitled_autogen/moc_predefs.h \
-	/home/gb/CLionProjects/task_manager/controller.cpp \
-	/home/gb/CLionProjects/task_manager/controller.h \
 	/home/gb/CLionProjects/task_manager/main.cpp \
 	/opt/Qt/6.8.1/gcc_64/include/QtCore/QDebug \
+	/opt/Qt/6.8.1/gcc_64/include/QtCore/QList \
+	/opt/Qt/6.8.1/gcc_64/include/QtCore/QMap \
 	/opt/Qt/6.8.1/gcc_64/include/QtCore/QObject \
 	/opt/Qt/6.8.1/gcc_64/include/QtCore/QString \
+	/opt/Qt/6.8.1/gcc_64/include/QtCore/QVariant \
+	/opt/Qt/6.8.1/gcc_64/include/QtCore/QVariantMap \
 	/opt/Qt/6.8.1/gcc_64/include/QtCore/q20functional.h \
 	/opt/Qt/6.8.1/gcc_64/include/QtCore/q20iterator.h \
 	/opt/Qt/6.8.1/gcc_64/include/QtCore/q20memory.h \
@@ -181,6 +266,7 @@ untitled_autogen/timestamp: \
 	/opt/Qt/6.8.1/gcc_64/include/QtCore/qurl.h \
 	/opt/Qt/6.8.1/gcc_64/include/QtCore/qutf8stringview.h \
 	/opt/Qt/6.8.1/gcc_64/include/QtCore/qvariant.h \
+	/opt/Qt/6.8.1/gcc_64/include/QtCore/qvariantmap.h \
 	/opt/Qt/6.8.1/gcc_64/include/QtCore/qvarlengtharray.h \
 	/opt/Qt/6.8.1/gcc_64/include/QtCore/qversiontagging.h \
 	/opt/Qt/6.8.1/gcc_64/include/QtCore/qxptype_traits.h \

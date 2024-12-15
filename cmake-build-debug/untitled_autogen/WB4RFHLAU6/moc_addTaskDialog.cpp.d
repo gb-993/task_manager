@@ -1,5 +1,16 @@
 /home/gb/CLionProjects/task_manager/cmake-build-debug/untitled_autogen/WB4RFHLAU6/moc_addTaskDialog.cpp: /home/gb/CLionProjects/task_manager/View/addTaskDialog.h \
   /home/gb/CLionProjects/task_manager/cmake-build-debug/untitled_autogen/moc_predefs.h \
+  /home/gb/CLionProjects/task_manager/Model/category.h \
+  /home/gb/CLionProjects/task_manager/Model/goal.h \
+  /home/gb/CLionProjects/task_manager/Model/subject.h \
+  /home/gb/CLionProjects/task_manager/View/observer.h \
+  /opt/Qt/6.8.1/gcc_64/include/QtCore/QDebug \
+  /opt/Qt/6.8.1/gcc_64/include/QtCore/QList \
+  /opt/Qt/6.8.1/gcc_64/include/QtCore/QMap \
+  /opt/Qt/6.8.1/gcc_64/include/QtCore/QObject \
+  /opt/Qt/6.8.1/gcc_64/include/QtCore/QString \
+  /opt/Qt/6.8.1/gcc_64/include/QtCore/QVariant \
+  /opt/Qt/6.8.1/gcc_64/include/QtCore/QVariantMap \
   /opt/Qt/6.8.1/gcc_64/include/QtCore/q20functional.h \
   /opt/Qt/6.8.1/gcc_64/include/QtCore/q20iterator.h \
   /opt/Qt/6.8.1/gcc_64/include/QtCore/q20memory.h \
@@ -120,6 +131,7 @@
   /opt/Qt/6.8.1/gcc_64/include/QtCore/qurl.h \
   /opt/Qt/6.8.1/gcc_64/include/QtCore/qutf8stringview.h \
   /opt/Qt/6.8.1/gcc_64/include/QtCore/qvariant.h \
+  /opt/Qt/6.8.1/gcc_64/include/QtCore/qvariantmap.h \
   /opt/Qt/6.8.1/gcc_64/include/QtCore/qvarlengtharray.h \
   /opt/Qt/6.8.1/gcc_64/include/QtCore/qversiontagging.h \
   /opt/Qt/6.8.1/gcc_64/include/QtCore/qxptype_traits.h \
@@ -158,9 +170,11 @@
   /opt/Qt/6.8.1/gcc_64/include/QtWidgets/QDialog \
   /opt/Qt/6.8.1/gcc_64/include/QtWidgets/QLabel \
   /opt/Qt/6.8.1/gcc_64/include/QtWidgets/QLineEdit \
+  /opt/Qt/6.8.1/gcc_64/include/QtWidgets/QProgressBar \
   /opt/Qt/6.8.1/gcc_64/include/QtWidgets/QPushButton \
   /opt/Qt/6.8.1/gcc_64/include/QtWidgets/QSpinBox \
   /opt/Qt/6.8.1/gcc_64/include/QtWidgets/QVBoxLayout \
+  /opt/Qt/6.8.1/gcc_64/include/QtWidgets/QWidget \
   /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractbutton.h \
   /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractspinbox.h \
   /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qboxlayout.h \
@@ -171,6 +185,7 @@
   /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qlayout.h \
   /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qlayoutitem.h \
   /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qlineedit.h \
+  /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qprogressbar.h \
   /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qpushbutton.h \
   /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qsizepolicy.h \
   /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qspinbox.h \

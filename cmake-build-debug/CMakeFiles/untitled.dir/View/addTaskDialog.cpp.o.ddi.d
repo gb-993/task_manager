@@ -471,6 +471,29 @@ CMakeFiles/untitled.dir/View/addTaskDialog.cpp.o.ddi: \
  /opt/Qt/6.8.1/gcc_64/include/QtGui/qvalidator.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qregularexpression.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qlocale.h \
+ /home/gb/CLionProjects/task_manager/View/../Model/category.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/QObject \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qobject.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtWidgets/QWidget \
+ /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qwidget.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtWidgets/QProgressBar \
+ /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qprogressbar.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/QString \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qstring.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/QDebug \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qdebug.h \
+ /home/gb/CLionProjects/task_manager/View/../Model/goal.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/QList \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qlist.h \
+ /home/gb/CLionProjects/task_manager/View/../Model/subject.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/QVariantMap \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qvariantmap.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/QMap \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qmap.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/QVariant \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qvariant.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/QString \
+ /home/gb/CLionProjects/task_manager/View/../Model/../View/observer.h \
  /opt/Qt/6.8.1/gcc_64/include/QtWidgets/QPushButton \
  /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qpushbutton.h \
  /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractbutton.h

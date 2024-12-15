@@ -2,9 +2,15 @@
   /home/gb/CLionProjects/task_manager/cmake-build-debug/untitled_autogen/moc_predefs.h \
   /home/gb/CLionProjects/task_manager/Model/category.h \
   /home/gb/CLionProjects/task_manager/Model/goal.h \
+  /home/gb/CLionProjects/task_manager/Model/subject.h \
+  /home/gb/CLionProjects/task_manager/View/observer.h \
   /opt/Qt/6.8.1/gcc_64/include/QtCore/QDebug \
+  /opt/Qt/6.8.1/gcc_64/include/QtCore/QList \
+  /opt/Qt/6.8.1/gcc_64/include/QtCore/QMap \
   /opt/Qt/6.8.1/gcc_64/include/QtCore/QObject \
   /opt/Qt/6.8.1/gcc_64/include/QtCore/QString \
+  /opt/Qt/6.8.1/gcc_64/include/QtCore/QVariant \
+  /opt/Qt/6.8.1/gcc_64/include/QtCore/QVariantMap \
   /opt/Qt/6.8.1/gcc_64/include/QtCore/q20functional.h \
   /opt/Qt/6.8.1/gcc_64/include/QtCore/q20iterator.h \
   /opt/Qt/6.8.1/gcc_64/include/QtCore/q20memory.h \
@@ -121,6 +127,7 @@
   /opt/Qt/6.8.1/gcc_64/include/QtCore/qtypes.h \
   /opt/Qt/6.8.1/gcc_64/include/QtCore/qutf8stringview.h \
   /opt/Qt/6.8.1/gcc_64/include/QtCore/qvariant.h \
+  /opt/Qt/6.8.1/gcc_64/include/QtCore/qvariantmap.h \
   /opt/Qt/6.8.1/gcc_64/include/QtCore/qvarlengtharray.h \
   /opt/Qt/6.8.1/gcc_64/include/QtCore/qversiontagging.h \
   /opt/Qt/6.8.1/gcc_64/include/QtCore/qxptype_traits.h \

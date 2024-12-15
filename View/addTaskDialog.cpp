@@ -49,12 +49,18 @@ AddTaskDialog::AddTaskDialog(QWidget *parent): QDialog(parent){
 }
 
 void AddTaskDialog::onOkClicked() {
-    QString name = descriptionTaskLineEdit->text();
+    QString goalName = descriptionTaskLineEdit->text();
     int totGoal = totalTaskSelector->value();
-    emit okSignal(name, totGoal);
+    emit okSignal(goalName, totGoal, category);
     this->close();
 }
 
+void AddTaskDialog::setCategory(Category* cat) {
+    category = cat;
+}
+Category* AddTaskDialog::getCategory() const {
+    return category;
+}
 void AddTaskDialog::onCancelClicked() {
     this->close();
 }

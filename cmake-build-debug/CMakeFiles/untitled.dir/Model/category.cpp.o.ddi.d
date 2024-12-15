@@ -455,4 +455,15 @@ CMakeFiles/untitled.dir/Model/category.cpp.o.ddi: \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qstring.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/QDebug \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qdebug.h \
- /home/gb/CLionProjects/task_manager/Model/goal.h
+ /home/gb/CLionProjects/task_manager/Model/goal.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/QList \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qlist.h \
+ /home/gb/CLionProjects/task_manager/Model/subject.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/QVariantMap \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qvariantmap.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/QMap \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qmap.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/QVariant \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qvariant.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/QString \
+ /home/gb/CLionProjects/task_manager/Model/../View/observer.h

@@ -467,11 +467,25 @@ CMakeFiles/untitled.dir/View/categoryWidget.cpp.o.ddi: \
  /opt/Qt/6.8.1/gcc_64/include/QtWidgets/QScrollArea \
  /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qscrollarea.h \
  /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qabstractscrollarea.h \
+ /home/gb/CLionProjects/task_manager/View/observer.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/QVariantMap \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qvariantmap.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/QMap \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qmap.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/QVariant \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qvariant.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/QString \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qstring.h \
+ /home/gb/CLionProjects/task_manager/View/taskWidget.h \
  /home/gb/CLionProjects/task_manager/View/../Model/category.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/QObject \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qobject.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/QString \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qstring.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/QDebug \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qdebug.h \
+ /home/gb/CLionProjects/task_manager/View/../Model/goal.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/QList \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qlist.h \
+ /home/gb/CLionProjects/task_manager/View/../Model/subject.h \
+ /home/gb/CLionProjects/task_manager/View/../Model/../View/observer.h \
  /home/gb/CLionProjects/task_manager/View/../Model/goal.h

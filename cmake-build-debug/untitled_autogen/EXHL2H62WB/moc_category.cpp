@@ -37,12 +37,7 @@ struct qt_meta_tag_ZN8CategoryE_t {};
 
 #ifdef QT_MOC_HAS_STRINGDATA
 static constexpr auto qt_meta_stringdata_ZN8CategoryE = QtMocHelpers::stringData(
-    "Category",
-    "addGoal",
-    "",
-    "Goal*",
-    "removeGoal",
-    "refreshTask"
+    "Category"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -54,22 +49,12 @@ Q_CONSTINIT static const uint qt_meta_data_ZN8CategoryE[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       3,   14, // methods
+       0,    0, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
        0,       // signalCount
-
- // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,   32,    2, 0x0a,    1 /* Public */,
-       4,    1,   35,    2, 0x0a,    3 /* Public */,
-       5,    0,   38,    2, 0x0a,    5 /* Public */,
-
- // slots: parameters
-    QMetaType::Void, 0x80000000 | 3,    2,
-    QMetaType::Void, 0x80000000 | 3,    2,
-    QMetaType::Void,
 
        0        // eod
 };
@@ -82,15 +67,7 @@ Q_CONSTINIT const QMetaObject Category::staticMetaObject = { {
     nullptr,
     qt_incomplete_metaTypeArray<qt_meta_tag_ZN8CategoryE_t,
         // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<Category, std::true_type>,
-        // method 'addGoal'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<Goal *, std::false_type>,
-        // method 'removeGoal'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<Goal *, std::false_type>,
-        // method 'refreshTask'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>
+        QtPrivate::TypeAndForceComplete<Category, std::true_type>
     >,
     nullptr
 } };
@@ -98,33 +75,10 @@ Q_CONSTINIT const QMetaObject Category::staticMetaObject = { {
 void Category::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     auto *_t = static_cast<Category *>(_o);
-    if (_c == QMetaObject::InvokeMetaMethod) {
-        switch (_id) {
-        case 0: _t->addGoal((*reinterpret_cast< std::add_pointer_t<Goal*>>(_a[1]))); break;
-        case 1: _t->removeGoal((*reinterpret_cast< std::add_pointer_t<Goal*>>(_a[1]))); break;
-        case 2: _t->refreshTask(); break;
-        default: ;
-        }
-    }
-    if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        switch (_id) {
-        default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
-        case 0:
-            switch (*reinterpret_cast<int*>(_a[1])) {
-            default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
-            case 0:
-                *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType::fromType< Goal* >(); break;
-            }
-            break;
-        case 1:
-            switch (*reinterpret_cast<int*>(_a[1])) {
-            default: *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType(); break;
-            case 0:
-                *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType::fromType< Goal* >(); break;
-            }
-            break;
-        }
-    }
+    (void)_t;
+    (void)_c;
+    (void)_id;
+    (void)_a;
 }
 
 const QMetaObject *Category::metaObject() const
@@ -137,24 +91,14 @@ void *Category::qt_metacast(const char *_clname)
     if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_ZN8CategoryE.stringdata0))
         return static_cast<void*>(this);
+    if (!strcmp(_clname, "Subject"))
+        return static_cast< Subject*>(this);
     return QObject::qt_metacast(_clname);
 }
 
 int Category::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QObject::qt_metacall(_c, _id, _a);
-    if (_id < 0)
-        return _id;
-    if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 3)
-            qt_static_metacall(this, _c, _id, _a);
-        _id -= 3;
-    }
-    if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 3)
-            qt_static_metacall(this, _c, _id, _a);
-        _id -= 3;
-    }
     return _id;
 }
 QT_WARNING_POP

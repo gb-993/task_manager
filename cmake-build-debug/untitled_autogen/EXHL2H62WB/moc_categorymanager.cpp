@@ -91,6 +91,8 @@ void *CategoryManager::qt_metacast(const char *_clname)
     if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_ZN15CategoryManagerE.stringdata0))
         return static_cast<void*>(this);
+    if (!strcmp(_clname, "Subject"))
+        return static_cast< Subject*>(this);
     return QObject::qt_metacast(_clname);
 }
 

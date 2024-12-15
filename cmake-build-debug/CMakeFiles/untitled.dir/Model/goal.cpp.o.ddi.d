@@ -2,35 +2,53 @@ CMakeFiles/untitled.dir/Model/goal.cpp.o.ddi: \
  /home/gb/CLionProjects/task_manager/Model/goal.cpp \
  /usr/include/stdc-predef.h \
  /home/gb/CLionProjects/task_manager/Model/goal.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/QObject \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qobject.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qobjectdefs.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qnamespace.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qglobal.h \
- /usr/include/c++/14.2.0/type_traits \
- /usr/include/c++/14.2.0/x86_64-unknown-linux-gnu/bits/c++config.h \
- /usr/include/c++/14.2.0/x86_64-unknown-linux-gnu/bits/os_defines.h \
- /usr/include/features.h /usr/include/features-time64.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/QList \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qlist.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qarraydatapointer.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qarraydataops.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qarraydata.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qpair.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qcontainerfwd.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qtconfigmacros.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qtconfiginclude.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qconfig.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qtcore-config.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qtversionchecks.h \
+ /usr/include/assert.h /usr/include/features.h \
+ /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/long-double.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qtypes.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qprocessordetection.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qsystemdetection.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qassert.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qcompilerdetection.h \
+ /usr/include/c++/14.2.0/version /usr/include/c++/14.2.0/bits/version.h \
+ /usr/include/c++/14.2.0/x86_64-unknown-linux-gnu/bits/c++config.h \
+ /usr/include/c++/14.2.0/x86_64-unknown-linux-gnu/bits/os_defines.h \
  /usr/include/c++/14.2.0/x86_64-unknown-linux-gnu/bits/cpu_defines.h \
  /usr/include/c++/14.2.0/pstl/pstl_config.h \
- /usr/include/c++/14.2.0/bits/version.h /usr/include/c++/14.2.0/cstddef \
- /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include/stddef.h \
  /usr/include/c++/14.2.0/utility \
  /usr/include/c++/14.2.0/bits/stl_relops.h \
  /usr/include/c++/14.2.0/bits/stl_pair.h \
- /usr/include/c++/14.2.0/bits/move.h \
+ /usr/include/c++/14.2.0/type_traits /usr/include/c++/14.2.0/bits/move.h \
  /usr/include/c++/14.2.0/bits/utility.h /usr/include/c++/14.2.0/compare \
  /usr/include/c++/14.2.0/concepts \
  /usr/include/c++/14.2.0/initializer_list \
  /usr/include/c++/14.2.0/ext/numeric_traits.h \
  /usr/include/c++/14.2.0/bits/cpp_type_traits.h \
  /usr/include/c++/14.2.0/ext/type_traits.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qtcoreexports.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qtdeprecationmarkers.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qtclasshelpermacros.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qtnoop.h \
+ /usr/include/c++/14.2.0/cstddef \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include/stddef.h \
  /usr/include/c++/14.2.0/cstdint \
  /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include/stdint.h \
  /usr/include/stdint.h \
@@ -41,29 +59,13 @@ CMakeFiles/untitled.dir/Model/goal.cpp.o.ddi: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-least.h /usr/include/assert.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+ /usr/include/c++/14.2.0/limits \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qglobal.h \
  /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include/stdbool.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qtversionchecks.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qtconfiginclude.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qconfig.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qtcore-config.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qtconfigmacros.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qtcoreexports.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qcompilerdetection.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qprocessordetection.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qsystemdetection.h \
- /usr/include/c++/14.2.0/version \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qtdeprecationmarkers.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qtclasshelpermacros.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qtpreprocessorsupport.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qassert.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qtnoop.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qtypes.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qtversion.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qtypeinfo.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qcontainerfwd.h \
- /usr/include/c++/14.2.0/limits \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qsysinfo.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qlogging.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qflags.h \
@@ -215,45 +217,14 @@ CMakeFiles/untitled.dir/Model/goal.cpp.o.ddi: \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qtresource.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qttranslation.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qversiontagging.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qcompare.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qcomparehelpers.h \
+ /usr/include/string.h /usr/include/strings.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qcontainertools_impl.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qxptype_traits.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/q20type_traits.h \
- /usr/include/c++/14.2.0/functional \
- /usr/include/c++/14.2.0/bits/stl_function.h \
- /usr/include/c++/14.2.0/backward/binders.h \
- /usr/include/c++/14.2.0/bits/refwrap.h \
- /usr/include/c++/14.2.0/bits/std_function.h \
- /usr/include/c++/14.2.0/unordered_map \
- /usr/include/c++/14.2.0/bits/unordered_map.h \
- /usr/include/c++/14.2.0/bits/hashtable.h \
- /usr/include/c++/14.2.0/bits/hashtable_policy.h \
- /usr/include/c++/14.2.0/ext/aligned_buffer.h \
- /usr/include/c++/14.2.0/ext/alloc_traits.h \
- /usr/include/c++/14.2.0/bits/alloc_traits.h \
- /usr/include/c++/14.2.0/bits/memoryfwd.h \
- /usr/include/c++/14.2.0/bits/allocator.h \
- /usr/include/c++/14.2.0/x86_64-unknown-linux-gnu/bits/c++allocator.h \
- /usr/include/c++/14.2.0/bits/new_allocator.h \
- /usr/include/c++/14.2.0/bits/node_handle.h \
- /usr/include/c++/14.2.0/bits/range_access.h \
- /usr/include/c++/14.2.0/bits/erase_if.h \
- /usr/include/c++/14.2.0/bits/memory_resource.h \
- /usr/include/c++/14.2.0/bits/uses_allocator_args.h \
- /usr/include/c++/14.2.0/vector \
- /usr/include/c++/14.2.0/bits/stl_uninitialized.h \
- /usr/include/c++/14.2.0/bits/stl_vector.h \
- /usr/include/c++/14.2.0/bits/stl_bvector.h \
- /usr/include/c++/14.2.0/bits/vector.tcc /usr/include/c++/14.2.0/array \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qtmetamacros.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qobjectdefs_impl.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qfunctionaltools_impl.h \
- /usr/include/c++/14.2.0/memory \
- /usr/include/c++/14.2.0/bits/stl_tempbuf.h \
- /usr/include/c++/14.2.0/bits/stl_raw_storage_iter.h \
- /usr/include/c++/14.2.0/bits/align.h \
- /usr/include/c++/14.2.0/bits/unique_ptr.h \
- /usr/include/c++/14.2.0/ostream /usr/include/c++/14.2.0/ios \
+ /usr/include/c++/14.2.0/cstring /usr/include/c++/14.2.0/iterator \
+ /usr/include/c++/14.2.0/bits/stream_iterator.h \
  /usr/include/c++/14.2.0/iosfwd /usr/include/c++/14.2.0/bits/stringfwd.h \
+ /usr/include/c++/14.2.0/bits/memoryfwd.h \
  /usr/include/c++/14.2.0/bits/postypes.h /usr/include/c++/14.2.0/cwchar \
  /usr/include/wchar.h \
  /usr/lib/gcc/x86_64-unknown-linux-gnu/14.2.0/include/stdarg.h \
@@ -262,7 +233,8 @@ CMakeFiles/untitled.dir/Model/goal.cpp.o.ddi: \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
- /usr/include/c++/14.2.0/bits/char_traits.h \
+ /usr/include/c++/14.2.0/bits/streambuf_iterator.h \
+ /usr/include/c++/14.2.0/streambuf \
  /usr/include/c++/14.2.0/bits/localefwd.h \
  /usr/include/c++/14.2.0/x86_64-unknown-linux-gnu/bits/c++locale.h \
  /usr/include/c++/14.2.0/clocale /usr/include/locale.h \
@@ -274,9 +246,19 @@ CMakeFiles/untitled.dir/Model/goal.cpp.o.ddi: \
  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
  /usr/include/c++/14.2.0/bits/locale_classes.h \
  /usr/include/c++/14.2.0/string \
+ /usr/include/c++/14.2.0/bits/char_traits.h \
+ /usr/include/c++/14.2.0/bits/allocator.h \
+ /usr/include/c++/14.2.0/x86_64-unknown-linux-gnu/bits/c++allocator.h \
+ /usr/include/c++/14.2.0/bits/new_allocator.h \
  /usr/include/c++/14.2.0/bits/ostream_insert.h \
  /usr/include/c++/14.2.0/bits/cxxabi_forced.h \
+ /usr/include/c++/14.2.0/bits/stl_function.h \
+ /usr/include/c++/14.2.0/backward/binders.h \
+ /usr/include/c++/14.2.0/bits/refwrap.h \
+ /usr/include/c++/14.2.0/bits/range_access.h \
  /usr/include/c++/14.2.0/bits/basic_string.h \
+ /usr/include/c++/14.2.0/ext/alloc_traits.h \
+ /usr/include/c++/14.2.0/bits/alloc_traits.h \
  /usr/include/c++/14.2.0/string_view \
  /usr/include/c++/14.2.0/bits/string_view.tcc \
  /usr/include/c++/14.2.0/ext/string_conversions.h \
@@ -288,17 +270,25 @@ CMakeFiles/untitled.dir/Model/goal.cpp.o.ddi: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/c++/14.2.0/bits/charconv.h \
  /usr/include/c++/14.2.0/bits/basic_string.tcc \
+ /usr/include/c++/14.2.0/bits/memory_resource.h \
+ /usr/include/c++/14.2.0/bits/uses_allocator_args.h \
  /usr/include/c++/14.2.0/bits/locale_classes.tcc \
  /usr/include/c++/14.2.0/system_error \
  /usr/include/c++/14.2.0/x86_64-unknown-linux-gnu/bits/error_constants.h \
- /usr/include/c++/14.2.0/stdexcept /usr/include/c++/14.2.0/streambuf \
+ /usr/include/c++/14.2.0/stdexcept \
  /usr/include/c++/14.2.0/bits/streambuf.tcc \
+ /usr/include/c++/14.2.0/memory \
+ /usr/include/c++/14.2.0/bits/stl_tempbuf.h \
+ /usr/include/c++/14.2.0/bits/stl_uninitialized.h \
+ /usr/include/c++/14.2.0/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/14.2.0/bits/align.h \
+ /usr/include/c++/14.2.0/bits/unique_ptr.h \
+ /usr/include/c++/14.2.0/ostream /usr/include/c++/14.2.0/ios \
  /usr/include/c++/14.2.0/bits/basic_ios.h \
  /usr/include/c++/14.2.0/bits/locale_facets.h \
  /usr/include/c++/14.2.0/cwctype /usr/include/wctype.h \
  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
  /usr/include/c++/14.2.0/x86_64-unknown-linux-gnu/bits/ctype_base.h \
- /usr/include/c++/14.2.0/bits/streambuf_iterator.h \
  /usr/include/c++/14.2.0/x86_64-unknown-linux-gnu/bits/ctype_inline.h \
  /usr/include/c++/14.2.0/bits/locale_facets.tcc \
  /usr/include/c++/14.2.0/bits/basic_ios.tcc \
@@ -306,6 +296,7 @@ CMakeFiles/untitled.dir/Model/goal.cpp.o.ddi: \
  /usr/include/c++/14.2.0/bits/shared_ptr.h \
  /usr/include/c++/14.2.0/bits/shared_ptr_base.h \
  /usr/include/c++/14.2.0/bits/allocated_ptr.h \
+ /usr/include/c++/14.2.0/ext/aligned_buffer.h \
  /usr/include/c++/14.2.0/ext/concurrence.h \
  /usr/include/c++/14.2.0/bits/shared_ptr_atomic.h \
  /usr/include/c++/14.2.0/backward/auto_ptr.h \
@@ -313,20 +304,6 @@ CMakeFiles/untitled.dir/Model/goal.cpp.o.ddi: \
  /usr/include/c++/14.2.0/bits/ranges_algobase.h \
  /usr/include/c++/14.2.0/pstl/glue_memory_defs.h \
  /usr/include/c++/14.2.0/pstl/execution_defs.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qstring.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qchar.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qstringview.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qbytearray.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qrefcount.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qarraydata.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qpair.h /usr/include/string.h \
- /usr/include/strings.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qarraydatapointer.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qarraydataops.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qcontainertools_impl.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qxptype_traits.h \
- /usr/include/c++/14.2.0/cstring /usr/include/c++/14.2.0/iterator \
- /usr/include/c++/14.2.0/bits/stream_iterator.h \
  /usr/include/c++/14.2.0/algorithm \
  /usr/include/c++/14.2.0/bits/stl_algo.h \
  /usr/include/c++/14.2.0/bits/algorithmfwd.h \
@@ -334,8 +311,29 @@ CMakeFiles/untitled.dir/Model/goal.cpp.o.ddi: \
  /usr/include/c++/14.2.0/bits/uniform_int_dist.h \
  /usr/include/c++/14.2.0/bits/ranges_algo.h \
  /usr/include/c++/14.2.0/pstl/glue_algorithm_defs.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qnamespace.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qcompare.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qcomparehelpers.h \
+ /usr/include/c++/14.2.0/functional \
+ /usr/include/c++/14.2.0/bits/std_function.h \
+ /usr/include/c++/14.2.0/unordered_map \
+ /usr/include/c++/14.2.0/bits/unordered_map.h \
+ /usr/include/c++/14.2.0/bits/hashtable.h \
+ /usr/include/c++/14.2.0/bits/hashtable_policy.h \
+ /usr/include/c++/14.2.0/bits/node_handle.h \
+ /usr/include/c++/14.2.0/bits/erase_if.h /usr/include/c++/14.2.0/vector \
+ /usr/include/c++/14.2.0/bits/stl_vector.h \
+ /usr/include/c++/14.2.0/bits/stl_bvector.h \
+ /usr/include/c++/14.2.0/bits/vector.tcc /usr/include/c++/14.2.0/array \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qtmetamacros.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/q20functional.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/q20memory.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qhashfunctions.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qstring.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qchar.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qstringview.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qbytearray.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qrefcount.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qbytearrayalgorithms.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qbytearrayview.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qstringfwd.h \
@@ -349,16 +347,28 @@ CMakeFiles/untitled.dir/Model/goal.cpp.o.ddi: \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qstringbuilder.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qstringconverter.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qstringconverter_base.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qlist.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qhashfunctions.h \
  /usr/include/c++/14.2.0/numeric \
  /usr/include/c++/14.2.0/bits/stl_numeric.h \
  /usr/include/c++/14.2.0/pstl/glue_numeric_defs.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qiterator.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qbytearraylist.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qlist.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qstringlist.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qalgorithms.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qstringmatcher.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtWidgets/QWidget \
+ /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qwidget.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtGui/qtguiglobal.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtGui/qtgui-config.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtGui/qtguiexports.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgets-config.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsexports.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtGui/qwindowdefs.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qobjectdefs.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qobjectdefs_impl.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qfunctionaltools_impl.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qobject.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qscopedpointer.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qmetatype.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qdatastream.h \
@@ -394,16 +404,6 @@ CMakeFiles/untitled.dir/Model/goal.cpp.o.ddi: \
  /usr/include/c++/14.2.0/format /usr/include/c++/14.2.0/charconv \
  /usr/include/c++/14.2.0/span /usr/include/c++/14.2.0/bits/unicode.h \
  /usr/include/c++/14.2.0/bits/unicode-data.h \
- /opt/Qt/6.8.1/gcc_64/include/QtWidgets/QWidget \
- /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qwidget.h \
- /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
- /opt/Qt/6.8.1/gcc_64/include/QtGui/qtguiglobal.h \
- /opt/Qt/6.8.1/gcc_64/include/QtGui/qtgui-config.h \
- /opt/Qt/6.8.1/gcc_64/include/QtGui/qtguiexports.h \
- /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgets-config.h \
- /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qtwidgetsexports.h \
- /opt/Qt/6.8.1/gcc_64/include/QtGui/qwindowdefs.h \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qobject.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qmargins.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/q23utility.h \
  /opt/Qt/6.8.1/gcc_64/include/QtGui/qaction.h \
@@ -449,5 +449,21 @@ CMakeFiles/untitled.dir/Model/goal.cpp.o.ddi: \
  /opt/Qt/6.8.1/gcc_64/include/QtGui/qbitmap.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/QString \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/qstring.h \
+ /home/gb/CLionProjects/task_manager/Model/subject.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/QVariantMap \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qvariantmap.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/QMap \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qmap.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/QVariant \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qvariant.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/QString \
+ /home/gb/CLionProjects/task_manager/Model/../View/observer.h \
  /opt/Qt/6.8.1/gcc_64/include/QtCore/QDebug \
- /opt/Qt/6.8.1/gcc_64/include/QtCore/qdebug.h
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qdebug.h \
+ /home/gb/CLionProjects/task_manager/Model/category.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/QObject \
+ /opt/Qt/6.8.1/gcc_64/include/QtCore/qobject.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtWidgets/QProgressBar \
+ /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qprogressbar.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qframe.h \
+ /opt/Qt/6.8.1/gcc_64/include/QtWidgets/qwidget.h

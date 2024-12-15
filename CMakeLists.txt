@@ -24,12 +24,16 @@ add_executable(untitled main.cpp
         View/mainwindow.h
         View/addCategoryDialog.cpp
         View/addCategoryDialog.h
-        controller.cpp
-        controller.h
+        Controller/controller.cpp
+        Controller/controller.h
         View/categoryWidget.cpp
         View/categoryWidget.h
         View/addTaskDialog.cpp
         View/addTaskDialog.h
+        View/taskWidget.cpp
+        View/taskWidget.h
+        Model/subject.h
+        View/observer.h
 )
 target_link_libraries(untitled
         Qt::Core

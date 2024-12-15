@@ -1,15 +1,3 @@
-/* Una categoria possiede:
-    descrizione
-    lista di goal
-    un totale di task (somma di tutti i goal)
-    un totale di task completati (somma di tutti i goal)
-
-Una categoria può:
-    aggiungere goal
-    rimuovere goal
-    modificare goal (forse no)
-    */
-
 
 #ifndef CATEGORY_H
 #define CATEGORY_H
@@ -20,9 +8,11 @@ Una categoria può:
 #include <QString>
 #include <QDebug>
 #include "goal.h"
+#include "../View/observer.h"
 
 
-class Category : public QObject
+
+class Category : public QObject, public Subject
 {
     Q_OBJECT
 private:
@@ -32,18 +22,27 @@ private:
     int completedTask;
 
 public:
-    Category(QString description = "default_category_description", int totalTask = 0);
-    void print() const;
+    Category(QString description = "default_category_description");
+    ~Category();
+
     QString getDescription() const;
     int getTotalTask() const;
     int getCompletedTask() const;
-    ~Category();
+    void setDescription(QString);
+    void setTotalTask(int);
+    void setCompletedTask(int);
+    QList<Goal*> getGoalCollection() const;
 
-public slots:
+    void attach(Observer *) override;
+    void detach(Observer *) override;
+    void notifyObservers() override;
+
+
+    void print() const;
+    void printObserversList() const;
     void addGoal(Goal*); // apre QDialog per creazione (secondo modo per aggiungere sensore;
-    void removeGoal(Goal*); // effetto su quello selezionato
-    void refreshTask();     // ogni volta che aggiungo un goal aggiorna la somma di task totali e completati
-    // void modifyGoal(Goal*, int, int); // apre una QDialog per modificare dati ( visitor per modificarla a seconda del sensore)
+    void removeGoal(Goal*); // serve al distruttore
+    void refreshCategory();     // ogni volta che aggiungo un goal aggiorna la somma di task totali e completati
 
 };
 

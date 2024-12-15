@@ -11,9 +11,11 @@ build CMakeFiles/untitled.dir/View/mainwindow.cpp.o: dyndep
 
 build CMakeFiles/untitled.dir/View/addCategoryDialog.cpp.o: dyndep
 
-build CMakeFiles/untitled.dir/controller.cpp.o: dyndep
+build CMakeFiles/untitled.dir/Controller/controller.cpp.o: dyndep
 
 build CMakeFiles/untitled.dir/View/categoryWidget.cpp.o: dyndep
 
 build CMakeFiles/untitled.dir/View/addTaskDialog.cpp.o: dyndep
+
+build CMakeFiles/untitled.dir/View/taskWidget.cpp.o: dyndep
 

@@ -13,26 +13,22 @@ Q_OBJECT
     public:
     AddCategoryDialog(QDialog *parent = nullptr);
     ~AddCategoryDialog();
+
+public slots:
     void onOkClicked();
     void onCancelClicked();
 
     private:
-    QString categoryName;
     QVBoxLayout *mainLayout;
     QLabel *descriptionLabel;
     QLineEdit *descriptionCategoryLineEdit;
     QHBoxLayout *descriptionLayout;
-
-    QLabel *totalTaskLabel;
-    QSpinBox *totalTaskSelector;
-    QHBoxLayout *counterLayout;
-
     QPushButton *okButton;
     QPushButton *cancelButton;
     QHBoxLayout *buttonLayout;
 
     signals:
-    void okSignal(QString, int);
+    void okSignal(QString);
 
 };
 

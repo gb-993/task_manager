@@ -1,25 +1,14 @@
-/* Un Goal è formato da:
-    descrizione
-    categoria
-    min (i task minimi da fare == 0) evitabile se metto tutto unsigned int
-    max (i task totali da fare)
-    counter (i task completati)
-
-    categoria: immodificabile
-    ogni volta che modifico il resto emette un signal
-*/
-
-
 #ifndef GOAL_H
 #define GOAL_H
 
-#include <QObject>
+#include <QList>
 #include <QWidget>
 #include <QString>
 
+#include "subject.h"
+#include "../View/observer.h"
 
-class Goal : public QObject
-{
+class Goal : public QObject, public Subject {
     Q_OBJECT
 private:
     QString description;
@@ -27,26 +16,32 @@ private:
     int max;
     int min;
     int counter;
-signals:
-    void updateTaskSignal();
 public:
     Goal(QString d = "default_description", int ma = 4);
+    ~Goal();
 
-    void print() const;
-    void addOne();
-    void removeOne();
-
+    /* metodi get */
     QString getDescription() const;
     QString getCategory() const;
     int getCounter() const;
     int getMax() const;
     int getMin() const;
 
+    /* metodi set */
     void setDescription(QString description);
     void setCategory(QString category);
     void setMax(int max);
 
-    ~Goal();
+    /* implementazione classi subject */
+    void attach(Observer *) override;
+    void detach(Observer *) override;
+    void notifyObservers() override;
+
+    /* metodi propri */
+    void print() const;
+    void addOne();
+    void removeOne();
+
 };
 
 #endif // GOAL_H

@@ -21,18 +21,6 @@ AddCategoryDialog::AddCategoryDialog(QDialog* parent): QDialog(parent) {
     descriptionLayout->addWidget(descriptionCategoryLineEdit);
     mainLayout->addLayout(descriptionLayout);
 
-    /* selettore numero task */
-    totalTaskLabel = new QLabel(this);
-    totalTaskLabel->setText("Total tasks: ");
-    totalTaskSelector = new QSpinBox(this);
-    totalTaskSelector->setMinimum(1);
-    totalTaskSelector->setMaximum(100);
-    totalTaskSelector->setValue(0);
-    counterLayout = new QHBoxLayout();
-    counterLayout->addWidget(totalTaskLabel);
-    counterLayout->addWidget(totalTaskSelector);
-    mainLayout->addLayout(counterLayout);
-
 
     okButton = new QPushButton(this);
     okButton->setText("ok");
@@ -51,10 +39,10 @@ AddCategoryDialog::AddCategoryDialog(QDialog* parent): QDialog(parent) {
 
 }
 
+/* manda al controller le info col nome della categoria */
 void AddCategoryDialog::onOkClicked() {
-    QString category = descriptionCategoryLineEdit->text();
-    int totTask = totalTaskSelector->value();
-    emit okSignal(category, totTask);
+    QString categoryName = descriptionCategoryLineEdit->text();
+    emit okSignal(categoryName);
     this->close();
 }
 

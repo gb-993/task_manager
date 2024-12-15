@@ -10,25 +10,42 @@
 #include <QVBoxLayout>
 #include <QWidget>
 #include <QScrollArea>
-#include "../Model/category.h"
+#include "observer.h"
+#include "taskWidget.h"
+#include "../Model/category.h"      /* la osserva per le modifiche alla progress bar e counter */
 
-
-class CategoryWidget: public QWidget {
+class CategoryWidget: public QWidget, public Observer{
 Q_OBJECT
     public:
-    explicit CategoryWidget(QWidget *parent = nullptr, Category *category = nullptr);
+    explicit CategoryWidget(Category*, QWidget *parent = nullptr);
     ~CategoryWidget();
+
+    Category* getCategory() const;
+    void update() override;
+
+
     void onDeleteButtonClicked();
     void onAddTaskButtonClicked();
+    void onDeleteTaskButtonClicked(Goal*);
+    void onPlusTaskButtonClicked(Goal*);
+    void onMinusTaskButtonClicked(Goal*);
+
+    void addTask(TaskWidget*);
+    void clearCatWidgetLayout();
     void deleteSelf();
-    Category* getCategory();
     void printTest();
+
+    QList<TaskWidget*> getTaskWidgets() const ;
+    void addTaskWidget(TaskWidget* taskWidget) ;
+
 
 
 private:
-    Category *category;
+    Category* category;
+    TaskWidget* taskWidget;
     QLabel *title;
     QPushButton *deleteButton;
+    QPushButton *printButton;
     QHBoxLayout *titleAndDeleteLayout;
     QVBoxLayout *mainLayout;
     QHBoxLayout *progressAndButtonLayout;
@@ -42,8 +59,11 @@ private:
     QVBoxLayout *contentLayout;
 
     signals:
-    void deleteButtonClickedSignal(CategoryWidget*);
-    void addTaskButtonClickedSignal();
+    void deleteButtonClickedSignal(Category*);
+    void addTaskButtonClickedSignal(Category*);
+    void deleteTaskButtonClickedSignal(Category*, Goal*);
+    void plusTaskButtonSignal(Category*, Goal*);
+    void minusTaskButtonSignal(Category*, Goal*);
 
 };
 
